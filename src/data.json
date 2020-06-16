@@ -1,19 +1,45 @@
-[{
+ [
+    {
     "id":1,
-    "name":"Simona",
-    "address": "Grazer Damm"
+    "name":"plant1.png",
+    "address": "./src/public/img/plant1.png" 
 
 },
+
 {
     "id":2,
-    "name":"Ovi",
-    "address": "Seestr"
+    "name":"plant2.png",
+    "address": "../public/img/plant2.png"
 
 },
+
 {
     "id":3,
-    "name":"Andreea",
-    "address": "Lansberger"
+    "name":"plant3.png",
+    "address": "./public/img/plant3.png"
+
+},
+
+{
+    "id":4,
+    "name":"plant4.png",
+    "address": "./public/img/plant4.png"
+
+},
+
+{
+    "id":5,
+    "name":"plant5.png",
+    "address": "./public/img/plant1.png"
+
+},
+
+{
+    "id":6,
+    "name":"plant6.png",
+    "address": "./public/img/plant5.png"
 
 }
+
 ]
+

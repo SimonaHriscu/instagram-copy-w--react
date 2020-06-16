@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+.App{
+    width: 100vw;
+    height: 100vh;
+background-color: blue;
+
+header{
+    width: 100vw;
+    height: 5vh;
+    background-color: lightpink;
+}
+.content{
+    width: 100vw;
+    height: 95vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+    .Profile{
+        width: 50vw ;
+        height: 47vh;
+        background-color: green;
+    }
+    .Gallery{
+        width: 50vw;
+        height: 48vh;
+        background-color: lightblue;
+    }
+}
+}
+}
