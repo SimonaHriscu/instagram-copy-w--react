@@ -56,7 +56,7 @@
     .content {
       width: 100vw;
       height: 95vh;
-      background-color:rgb(250,250,250);
+      background-color: rgb(250, 250, 250);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -64,6 +64,45 @@
       .Profile {
         width: 50vw;
         height: 47vh;
+        .Top {
+          width: 50vw;
+          height: 30vh;
+          .top-container {
+            width: 50vw;
+            height: 30vh;
+            display: flex;
+
+            .Pic {
+              width: 17vw;
+              height: 30vh;
+              text-align: center;
+              padding-top: 5vh;
+              img {
+                width: 9vw;
+                height: auto;
+                
+              }
+            }
+
+            .Info {
+              width: 33vw;
+              height: 30vh;
+            }
+          }
+        }
+        .Stories {
+          width: 20vw;
+          height: 15vh;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+        
+          img{
+            width: 4vw;
+                height: auto;
+          }
+          
+        }
       }
       .Gallery {
         width: 50vw;
