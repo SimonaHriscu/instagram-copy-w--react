@@ -10,7 +10,7 @@ const Main = () => {
       <Profile></Profile>
     </div>
     <div className="Gallery">
-        <Gallery></Gallery>;
+        <Gallery></Gallery>
 
     </div>
     </div>
