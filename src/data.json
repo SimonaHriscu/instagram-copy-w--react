@@ -2,7 +2,7 @@
     {
     "id":1,
     "name":"plant1.png",
-    "address": "./src/public/img/plant1.png" 
+    "address": "./img/plant1.png" 
 
 },
 
