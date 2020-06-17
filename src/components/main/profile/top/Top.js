@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../../scss/main.scss';
 import ProfilePhoto from './img/profile-pic.png';
 
 const Top = () => {
