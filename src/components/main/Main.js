@@ -1,16 +1,16 @@
 import React from "react";
-import "../../scss/main.scss";
-import Gallery from "./gallery/gallery";
-import Profile from "./profile/profile";
+import Gallery from "./gallery/Gallery";
+import Profile from "./profile/Profile";
 
-const Main = () => {
+const Main = (props) => {
+  //console.log(props);
   return (<div className = "content">
     <div className="Profile">
       {" "}
       <Profile></Profile>
     </div>
     <div className="Gallery">
-        <Gallery></Gallery>
+        <Gallery galleryInfo = {props.gallery}></Gallery>
 
     </div>
     </div>

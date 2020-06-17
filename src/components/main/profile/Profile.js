@@ -1,7 +1,6 @@
 import React from 'react';
-import '../../../scss/main.scss';
-import Top from '../profile/Top/top'
-import Stories from '../profile/Stories/stories'
+import Top from './top/Top'
+import Stories from './stories/Stories'
 
 const Profile = () => {
     return ( <div>

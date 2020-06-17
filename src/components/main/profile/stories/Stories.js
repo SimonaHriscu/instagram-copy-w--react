@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../../scss/main.scss';
 import StoryCircle from './img/stories.png';
 
 
