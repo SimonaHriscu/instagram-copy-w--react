@@ -142,12 +142,12 @@
             width: 50vw;
             height: fit-content;
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(3, 15vw);
-            gap: 2vw;
+            grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
+            row-gap: 3vw;
+            column-gap: 3vh; 
+            
             img{
-              width: 15vw;
-              height: 15w;
+              width: 100%;
             }
           }
         }
