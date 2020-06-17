@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Instagram-copy-w--React/static/css/main.362b42db.chunk.css",
-    "main.js": "/Instagram-copy-w--React/static/js/main.9da54893.chunk.js",
-    "main.js.map": "/Instagram-copy-w--React/static/js/main.9da54893.chunk.js.map",
+    "main.css": "/Instagram-copy-w--React/static/css/main.225737b2.chunk.css",
+    "main.js": "/Instagram-copy-w--React/static/js/main.40d0577f.chunk.js",
+    "main.js.map": "/Instagram-copy-w--React/static/js/main.40d0577f.chunk.js.map",
     "runtime-main.js": "/Instagram-copy-w--React/static/js/runtime-main.43ff17b0.js",
     "runtime-main.js.map": "/Instagram-copy-w--React/static/js/runtime-main.43ff17b0.js.map",
-    "static/js/2.0c2c3197.chunk.js": "/Instagram-copy-w--React/static/js/2.0c2c3197.chunk.js",
-    "static/js/2.0c2c3197.chunk.js.map": "/Instagram-copy-w--React/static/js/2.0c2c3197.chunk.js.map",
+    "static/js/2.9ef493cb.chunk.js": "/Instagram-copy-w--React/static/js/2.9ef493cb.chunk.js",
+    "static/js/2.9ef493cb.chunk.js.map": "/Instagram-copy-w--React/static/js/2.9ef493cb.chunk.js.map",
     "index.html": "/Instagram-copy-w--React/index.html",
-    "precache-manifest.5c50fcca54b1057eee7bc6d47a982742.js": "/Instagram-copy-w--React/precache-manifest.5c50fcca54b1057eee7bc6d47a982742.js",
+    "precache-manifest.8e4ec73e0cc585015ad3d3179e32948f.js": "/Instagram-copy-w--React/precache-manifest.8e4ec73e0cc585015ad3d3179e32948f.js",
     "service-worker.js": "/Instagram-copy-w--React/service-worker.js",
-    "static/css/main.362b42db.chunk.css.map": "/Instagram-copy-w--React/static/css/main.362b42db.chunk.css.map",
-    "static/js/2.0c2c3197.chunk.js.LICENSE.txt": "/Instagram-copy-w--React/static/js/2.0c2c3197.chunk.js.LICENSE.txt",
+    "static/css/main.225737b2.chunk.css.map": "/Instagram-copy-w--React/static/css/main.225737b2.chunk.css.map",
+    "static/js/2.9ef493cb.chunk.js.LICENSE.txt": "/Instagram-copy-w--React/static/js/2.9ef493cb.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/Instagram-copy-w--React/static/media/logo.dcc389e5.png",
     "static/media/profile-pic.png": "/Instagram-copy-w--React/static/media/profile-pic.d1a4e7dd.png",
     "static/media/stories.png": "/Instagram-copy-w--React/static/media/stories.46ec9691.png"
   },
   "entrypoints": [
     "static/js/runtime-main.43ff17b0.js",
-    "static/js/2.0c2c3197.chunk.js",
-    "static/css/main.362b42db.chunk.css",
-    "static/js/main.9da54893.chunk.js"
+    "static/js/2.9ef493cb.chunk.js",
+    "static/css/main.225737b2.chunk.css",
+    "static/js/main.40d0577f.chunk.js"
   ]
 }
