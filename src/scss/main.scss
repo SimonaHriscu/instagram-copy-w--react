@@ -142,8 +142,8 @@
             width: 50vw;
             height: fit-content;
             display: grid;
-            grid-template-columns: 15vw 15vw 15vw;
-            grid-template-rows: 15vw 15vw 15vw;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 15vw);
             gap: 2vw;
             img{
               width: 15vw;

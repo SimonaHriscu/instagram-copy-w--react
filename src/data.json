@@ -2,7 +2,7 @@
     {
     "id":1,
     "name":"plant1.png",
-    "url": "./img/plant1.png" 
+    "url": "../public/img/plant1.png" 
 
 },
 
