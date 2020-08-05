@@ -5,18 +5,14 @@ import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 
 export default class App extends React.Component {
-  
   render() {
     return (
-      <React.Fragment>
-        <div className="App">
-          <header>
-            <Header />
-          </header>
-
+     
+        <React.Fragment>
+          <Header />
           <Main gallery={Data}></Main>
-        </div>
-      </React.Fragment>
+         </React.Fragment>
+  
     );
   }
 }

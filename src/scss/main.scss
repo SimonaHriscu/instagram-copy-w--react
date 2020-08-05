@@ -1,63 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
-  .App {
+  #root {
     width: 100vw;
     height: 100vh;
     overflow-y: scroll;
     background-color: rgb(250, 250, 250);
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: "Balsamiq Sans", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    header {
-      width: 100vw;
+    .header-box {
+      width: 50vw;
       height: 5vh;
       display: flex;
       justify-content: center;
       border: 0.5px solid #dbdbdb;
       position: fixed;
       background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-      .header-box {
-        //padding: 0 1vw;
-        width: 50vw;
+      .logo-box {
+        width: 10vw;
+        height: 4vh;
+
+        img {
+          width: 6vw;
+          height: auto;
+          margin-left: 2vw;
+        }
+      }
+
+      input {
+        width: 11vw;
+        height: 2.7vh;
+        background-color: #fafafa;
+        border: 0.5px solid #dbdbdb;
+        border-radius: 3px;
+        text-align: center;
+      }
+      .icon-box {
+        width: 12vw;
         height: 5vh;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
-
-        .logo-box {
-          width: 10vw;
-          height: 4vh;
-           display: flex;
-           align-items: center;
-          img {
-            width: 6vw;
-            height: auto;
-          }
-        }
-
-        input {
-          width: 11vw;
-          height: 2.7vh;
-          background-color: #fafafa;
-          border: 0.5px solid #dbdbdb;
-          border-radius: 3px;
-          text-align: center;
-        }
-        .icon-box {
-          width: 12vw;
-          height: 5vh;
-          display: flex;
-          justify-content: space-evenly;
-          align-items: center;
-          ion-icon {
-            font-size: 1.3vw;
-            --ionicon-stroke-width: 26px;
-          }
+        ion-icon {
+          font-size: 1.3vw;
+          --ionicon-stroke-width: 26px;
         }
       }
     }
@@ -67,8 +64,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-     
-
 
       .Profile {
         width: 50vw;
@@ -77,28 +72,22 @@
         .Top {
           width: 50vw;
           height: 30vh;
+          display: flex;
 
-          .top-container {
-            width: 50vw;
+          .Pic {
+            width: 17vw;
             height: 30vh;
-            display: flex;
+            text-align: center;
+            padding-top: 10vh;
 
-            .Pic {
-              width: 17vw;
-              height: 30vh;
-              text-align: center;
-              padding-top: 10vh;
-
-              img {
-                width: 9vw;
-                height: auto;
-              }
+            img {
+              width: 9vw;
+              height: auto;
             }
-
-            .Info {
-              width: 33vw;
-              height: 30vh;
-            }
+          }
+          .Info {
+            width: 33vw;
+            height: 30vh;
           }
         }
         .Stories {
@@ -114,11 +103,12 @@
           }
         }
       }
+
       .Gallery {
+        
         width: 50vw;
         height: 48vh;
         border-top: 0.5px solid #dbdbdb;
-
         .gallery-container {
           display: flex;
           justify-content: center;
@@ -134,7 +124,7 @@
             font-size: 0.8vw;
             font-weight: 600;
             color: #8e8e8e;
-            & :first-child{
+            & :first-child {
               color: rgba(0, 0, 0, 0.849);
             }
           }
@@ -142,11 +132,11 @@
             width: 50vw;
             height: fit-content;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
-            row-gap: 3vw;
-            column-gap: 3vh; 
-            
-            img{
+            grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr));
+            row-gap: 3vh;
+            column-gap: 3vh;
+
+            img {
               width: 100%;
             }
           }

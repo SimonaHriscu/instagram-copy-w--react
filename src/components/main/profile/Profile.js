@@ -1,21 +1,21 @@
-import React from 'react';
-import Top from './top/Top'
-import Stories from './stories/Stories'
+import React from "react";
+import Top from "./top/Top";
+import Stories from "./stories/Stories";
 
 const Profile = () => {
-    return ( <div>
-    <div className="Top">
-      {" "}
-      <Top></Top>
+  return (
+    <div className="profile">
+      <div className="Top">
+        {" "}
+        <Top></Top>
+      </div>
+      <div className="Stories">
+        <Stories></Stories>
+        <Stories></Stories>
+        <Stories></Stories>
+      </div>
     </div>
-    <div className="Stories">
-        <Stories></Stories>
-        <Stories></Stories>
-        <Stories></Stories>
-        
+  );
+};
 
-    </div>
-    </div>);
-}
- 
 export default Profile;

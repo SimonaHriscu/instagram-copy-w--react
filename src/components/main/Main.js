@@ -4,7 +4,9 @@ import Profile from "./profile/Profile";
 
 const Main = (props) => {
   //console.log(props);
-  return (<div className = "content">
+  return (
+  
+  <div className = "content">
     <div className="Profile">
       {" "}
       <Profile></Profile>
