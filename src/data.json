@@ -1,66 +1,55 @@
- [
-    {
-    "id":1,
-    "name":"plant1.png",
-    "url": "./img/plant1.png" 
+[
+  {
+    "id": 1,
+    "name": "plant1.png",
+    "url": "./img/plant1.png"
+  },
 
-},
-
-{
-    "id":2,
-    "name":"plant2.png",
+  {
+    "id": 2,
+    "name": "plant2.png",
     "url": "./img/plant2.png"
+  },
 
-},
-
-{
-    "id":3,
-    "name":"plant3.png",
+  {
+    "id": 3,
+    "name": "plant3.png",
     "url": "./img/plant3.png"
+  },
 
-},
-
-{
-    "id":4,
-    "name":"plant4.png",
+  {
+    "id": 4,
+    "name": "plant4.png",
     "url": "./img/plant4.png"
+  },
 
-},
-
-{
-    "id":5,
-    "name":"plant5.png",
+  {
+    "id": 5,
+    "name": "plant5.png",
     "url": "./img/plant5.png"
+  },
 
-},
-
-{
-    "id":6,
-    "name":"plant6.png",
+  {
+    "id": 6,
+    "name": "plant6.png",
     "url": "./img/plant6.png"
+  },
 
-},
-
-{
-    "id":7,
-    "name":"plant7.png",
+  {
+    "id": 7,
+    "name": "plant7.png",
     "url": "./img/plant7.png"
+  },
 
-},
-
-{
-    "id":8,
-    "name":"plant8.png",
+  {
+    "id": 8,
+    "name": "plant8.png",
     "url": "./img/plant8.png"
+  },
 
-},
-
-{
-    "id":9,
-    "name":"plant9.png",
+  {
+    "id": 9,
+    "name": "plant9.png",
     "url": "./img/plant9.png"
-
-}
-
+  }
 ]
-
