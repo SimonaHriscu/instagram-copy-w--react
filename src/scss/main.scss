@@ -22,7 +22,8 @@
       border: 0.5px solid #dbdbdb;
       position: fixed;
       background-color: #fff;
-      
+      z-index: 100;
+
       .header-box {
         width: 50vw;
         height: 5vh;
@@ -128,7 +129,7 @@
             .description {
               width: fit-content;
               font-size: 0.9vw;
-             line-height: 2.3vh;
+              line-height: 2.3vh;
               span {
                 font-weight: bold;
               }
