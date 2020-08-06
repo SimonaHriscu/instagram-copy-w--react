@@ -190,6 +190,11 @@
 
             img {
               width: 100%;
+              background-color: black;
+              &:hover {
+                filter: brightness(70%);
+                opacity: 0.95;
+              }
             }
           }
         }
