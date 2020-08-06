@@ -15,46 +15,50 @@
     flex-direction: column;
     align-items: center;
 
-    .header-box {
-      width: 50vw;
-      height: 5vh;
+    .header {
+      width: 100vw;
       display: flex;
       justify-content: center;
       border: 0.5px solid #dbdbdb;
       position: fixed;
       background-color: #fff;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      .logo-box {
-        width: 10vw;
-        height: 4vh;
-
-        img {
-          width: 6vw;
-          height: auto;
-          margin-left: 2vw;
-        }
-      }
-
-      input {
-        width: 11vw;
-        height: 2.7vh;
-        background-color: #fafafa;
-        border: 0.5px solid #dbdbdb;
-        border-radius: 3px;
-        text-align: center;
-      }
-      .icon-box {
-        width: 12vw;
+      
+      .header-box {
+        width: 50vw;
         height: 5vh;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
-        ion-icon {
-          font-size: 1.3vw;
-          --ionicon-stroke-width: 26px;
+
+        .logo-box {
+          width: 10vw;
+          height: 4vh;
+
+          img {
+            width: 6vw;
+            height: auto;
+            margin-left: 2vw;
+          }
+        }
+
+        input {
+          width: 11vw;
+          height: 2.7vh;
+          background-color: #fafafa;
+          border: 0.5px solid #dbdbdb;
+          border-radius: 3px;
+          text-align: center;
+        }
+        .icon-box {
+          width: 12vw;
+          height: 5vh;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          ion-icon {
+            font-size: 1.3vw;
+            --ionicon-stroke-width: 26px;
+          }
         }
       }
     }
@@ -64,33 +68,81 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-top: 5vh;
 
-      .Profile {
+      .profile {
         width: 50vw;
         height: 47vh;
 
-        .Top {
+        .top {
           width: 50vw;
           height: 30vh;
           display: flex;
 
-          .Pic {
+          .pic {
             width: 17vw;
             height: 30vh;
             text-align: center;
-            padding-top: 10vh;
+            padding-top: 5vh;
 
             img {
               width: 9vw;
               height: auto;
             }
           }
-          .Info {
+          .info {
             width: 33vw;
-            height: 30vh;
+            height: 28vh;
+            padding-top: 2vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+              "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+            .title {
+              width: 20vw;
+              font-size: 1.4vw;
+              display: flex;
+              justify-content: space-between;
+              button {
+                width: 4vw;
+                background-color: #0195f6;
+                color: white;
+                font-size: 0.8vw;
+                font-weight: bold;
+                border-radius: 5px;
+                border: none;
+              }
+            }
+            .views {
+              width: 20vw;
+              font-size: 0.9vw;
+              display: flex;
+              justify-content: space-between;
+              span {
+                font-weight: bold;
+                font-size: 1vw;
+              }
+            }
+            .description {
+              width: fit-content;
+              font-size: 0.9vw;
+             line-height: 2.3vh;
+              span {
+                font-weight: bold;
+              }
+            }
+            .followers {
+              width: fit-content;
+              font-size: 0.7vw;
+              span {
+                color: #a9a9a9;
+              }
+            }
           }
         }
-        .Stories {
+        .stories {
           width: 20vw;
           height: 15vh;
           display: flex;
@@ -104,8 +156,7 @@
         }
       }
 
-      .Gallery {
-        
+      .gallery {
         width: 50vw;
         height: 48vh;
         border-top: 0.5px solid #dbdbdb;
