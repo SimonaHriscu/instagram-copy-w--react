@@ -8,6 +8,11 @@
 * https://fontawesome.com/, https://ionicons.com/;
 * grid responsive gallery;
 
+## Development tools and frameworks used:
+<h1>
+<img src="https://imgur.com/T1TApg1.png" alt="React" width="20%">
+<img src="https://imgur.com/fZuu2v0.png" alt="React" width="10%">
+</h1>
 
 ## Preview:
 ![Imgur](https://imgur.com/BYwYtpf.png)
