@@ -1,3 +1,62 @@
+# Instagram 
+
+### Instagram webpage built with React:
+* basic structure;
+* connecting components;
+* transferring props from one component to another;
+* using SCSS in React;
+* https://fontawesome.com/, https://ionicons.com/;
+* grid responsive gallery;
+
+
+## Preview:
+![Imgur](https://imgur.com/BYwYtpf.png)
+### Top Nav
+![Imgur](https://imgur.com/cnpkQTE.png)
+### Gallery
+![Imgur](https://i.imgur.com/uPmdBCR.png?1)
+
+```
+Project
+│   README.md
+│   package.json
+|   package-lock.json
+|   .gitignore
+|
+└─── public
+│      │
+│      └─── index.html
+|      └─── img
+|
+|
+└─── src
+      └─── index.js
+      └─── App.js
+      └─── data.json
+      │
+      └─── components
+      │        └─── header
+      |        |        └─── Header.js
+      |        |        └─── img
+      |        |
+      |        └─── main
+      |                 └─── Main.js
+      |                 └─── profile
+      |                 |          └─── Profile.js
+      |                 |          └─── stories
+      |                 |                 └─── Stories.js
+      |                 |                 └─── img
+      |                 |          └─── top
+      |                 |                  └─── Tops.js
+      |                 |                  └─── img
+      |                 └─── gallery
+      |                            └─── Gallery.js
+      └─── scss
+               └─── main.scss
+       
+   ``` 
+   
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
