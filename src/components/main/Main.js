@@ -7,11 +7,10 @@ const Main = (props) => {
   return (
   
   <div className = "content">
-    <div className="Profile">
-      {" "}
+    <div className="profile">
       <Profile></Profile>
     </div>
-    <div className="Gallery">
+    <div className="gallery">
         <Gallery galleryInfo = {props.gallery}></Gallery>
 
     </div>

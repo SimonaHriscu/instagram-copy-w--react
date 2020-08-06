@@ -1,17 +1,13 @@
 import React from "react";
 
-
 const Gallery = (props) => {
-
   console.log(props.galleryInfo);
-
- 
 
   const infoData = props.galleryInfo.map((item) => {
     const { id, name, url } = item; //destructuring
     return <img src={url} key={id} alt={name} />;
   });
-console.log(infoData);
+  console.log(infoData);
   return (
     <div className="gallery-container">
       <div className="menu">

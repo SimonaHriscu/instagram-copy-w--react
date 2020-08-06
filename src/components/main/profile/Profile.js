@@ -4,17 +4,16 @@ import Stories from "./stories/Stories";
 
 const Profile = () => {
   return (
-    <div className="profile">
-      <div className="Top">
-        {" "}
+    <React.Fragment>
+      <div className="top">
         <Top></Top>
       </div>
-      <div className="Stories">
+      <div className="stories">
         <Stories></Stories>
         <Stories></Stories>
         <Stories></Stories>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 
