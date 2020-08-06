@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/instagram-copy-w--react/static/css/main.2086d6bf.chunk.css",
+    "main.css": "/instagram-copy-w--react/static/css/main.01e35622.chunk.css",
     "main.js": "/instagram-copy-w--react/static/js/main.581a56bd.chunk.js",
     "main.js.map": "/instagram-copy-w--react/static/js/main.581a56bd.chunk.js.map",
     "runtime-main.js": "/instagram-copy-w--react/static/js/runtime-main.47de9d0c.js",
@@ -8,9 +8,9 @@
     "static/js/2.9ef493cb.chunk.js": "/instagram-copy-w--react/static/js/2.9ef493cb.chunk.js",
     "static/js/2.9ef493cb.chunk.js.map": "/instagram-copy-w--react/static/js/2.9ef493cb.chunk.js.map",
     "index.html": "/instagram-copy-w--react/index.html",
-    "precache-manifest.744f6559d78f242143fb6cb53213d178.js": "/instagram-copy-w--react/precache-manifest.744f6559d78f242143fb6cb53213d178.js",
+    "precache-manifest.a88909d68e0ae630bfd746fa495a37f2.js": "/instagram-copy-w--react/precache-manifest.a88909d68e0ae630bfd746fa495a37f2.js",
     "service-worker.js": "/instagram-copy-w--react/service-worker.js",
-    "static/css/main.2086d6bf.chunk.css.map": "/instagram-copy-w--react/static/css/main.2086d6bf.chunk.css.map",
+    "static/css/main.01e35622.chunk.css.map": "/instagram-copy-w--react/static/css/main.01e35622.chunk.css.map",
     "static/js/2.9ef493cb.chunk.js.LICENSE.txt": "/instagram-copy-w--react/static/js/2.9ef493cb.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/instagram-copy-w--react/static/media/logo.dcc389e5.png",
     "static/media/profile-pic.png": "/instagram-copy-w--react/static/media/profile-pic.d1a4e7dd.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.47de9d0c.js",
     "static/js/2.9ef493cb.chunk.js",
-    "static/css/main.2086d6bf.chunk.css",
+    "static/css/main.01e35622.chunk.css",
     "static/js/main.581a56bd.chunk.js"
   ]
 }
